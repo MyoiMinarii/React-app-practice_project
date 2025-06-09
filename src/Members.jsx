@@ -105,7 +105,12 @@ function Members() {
           />
         </li>
         <li>
-          <Card name="Dahyun" age={25} position="Lead Rapper, Sub Vocalist" />
+          <Card
+            profile_pic="https://i.redd.it/twice-japan-5th-album-dive-teaser-images-dahyun-chaeyoung-v0-ztz598mr6byc1.jpg?width=1638&format=pjpg&auto=webp&s=6767a7ce2535a70d0bce8d26e4c3530bb6db42f8"
+            name="Dahyun"
+            age={25}
+            position="Lead Rapper, Sub Vocalist"
+          />
         </li>
         <li>
           <Card
