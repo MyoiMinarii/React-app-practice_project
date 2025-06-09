@@ -4,11 +4,12 @@ import "./index.css";
 import App from "./App.jsx";
 import Footer from "./Footer.jsx";
 import Members from "./members.JSX";
+import Cards from "./members.JSX";
+import Header from "./Header.jsx";
+import input_display from "./members.JSX";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <App />
-    <Members />
-    <Footer />
   </StrictMode>
 );
