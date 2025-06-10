@@ -127,7 +127,7 @@ function Members() {
       age: parseInt(newMember.age),
     };
 
-    setMembers((prev) => [memberToAdd, ...prev]); // adds to the top
+    setMembers((prev) => [...prev, memberToAdd]); // adds to the bottom of the list
     setNewMember({ name: "", age: "", position: "", profile_pic: "" }); // reset
   }
 
