@@ -15,7 +15,7 @@ function Login_ui() {
         </button>
       </form>
       <p>
-        Don't have an account? <a href="#">Register</a>
+        Don't have an account? <a href="">Register</a>
       </p>
     </div>
   );
