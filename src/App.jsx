@@ -6,8 +6,9 @@ import Header from "./Header.jsx";
 import Footer from "./Footer.jsx";
 import Members from "./members.JSX";
 import Input_display from "./members.JSX";
+import Login_ui from "./Login.JSX";
 
-function App() {
+export default function App() {
   return (
     <div>
       <Header />
@@ -16,5 +17,3 @@ function App() {
     </div>
   );
 }
-
-export default App;
